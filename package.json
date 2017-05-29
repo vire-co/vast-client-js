@@ -1,7 +1,7 @@
 {
-  "name": "vast-client",
+  "name": "co.vire.vast-client",
   "author": "Olivier Poitrey <rs@dailymotion.com>",
-  "version": "1.7.1",
+  "version": "1.7.1-vire-0.0.3",
   "description": "Javascript VAST Client",
   "keywords": [
     "vast",

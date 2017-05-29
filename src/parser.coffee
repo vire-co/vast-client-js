@@ -222,6 +222,7 @@ class VASTParser
 
     @parseInLineElement: (inLineElement) ->
         ad = new VASTAd()
+        ad.document = inLineElement.ownerDocument;
         ad.id = inLineElement.getAttribute("id") || null
         ad.sequence = inLineElement.getAttribute("sequence") || null
 
